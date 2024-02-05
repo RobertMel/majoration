@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-background-color: grey;
+background-color: white;
 }
 
 header {
@@ -41,10 +41,7 @@ header {
     height: auto;
 }
 
-.car-container {
-    text-align: center;
-    margin-top: 20px;
-}
+
 
 .car {
     display: flex;
@@ -52,12 +49,3 @@ header {
     justify-content: space-evenly;
 }
 
-.car img {
-    flex-basis: calc(33.33% - 20px); /* Divise la colonne en trois avec un espace autour de chaque image */
-    width: 200px; /* Définissez la largeur souhaitée */
-    height: 150px; /* Définissez la hauteur souhaitée */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-}
