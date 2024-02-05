@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background-color: grey;
+}
+
+header {
+    background-color: #000000;
+
+}
+.slogan {
+    color: orange;
+    padding:5px;
+    font-size: small;
+    font-style: italic;
+    font-family:fantasy;
+}
+.logo img {
+    width: 130px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Ajustez la hauteur en conséquence */
+}
+.contact {
+    color: orange;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+     justify-content: flex-end; /* Aligner les icônes à droite */
+}
+
+.social-icons img {
+    width: 30px; /* Ajustez la taille des logos selon vos besoins */
+    height: auto;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 100px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto;
+}
+
+.car-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.car {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.car img {
+    flex-basis: calc(33.33% - 20px); /* Divise la colonne en trois avec un espace autour de chaque image */
+    width: 200px; /* Définissez la largeur souhaitée */
+    height: 150px; /* Définissez la hauteur souhaitée */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
